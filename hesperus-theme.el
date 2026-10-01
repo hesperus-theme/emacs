@@ -1,14 +1,14 @@
-;;; hesperus-theme.el --- A dark blu-ish theme inspired by the night sky -*- lexical-binding: t; -*-
+;;; hesperus-theme.el --- A dark bluish theme inspired by the night sky -*- lexical-binding: t; -*-
 
 ;; Authors: tachyonora, tichelmorres
 ;; Version: 2.0
 ;; Filename: hesperus-theme.el
-;; URL: https://github.com/hesperus/hesperus-emacs
+;; URL: https://github.com/hesperus-theme/emacs
 
 ;;; Code:
 
 (deftheme hesperus
-  "A dark blu-ish theme inspired by the night sky.")
+  "A dark bluish theme inspired by the night sky.")
 
 ;;; @TODO  Review these later
 (let ((hesperus-bg       "#171c26")
