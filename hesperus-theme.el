@@ -129,11 +129,11 @@
    `(whitespace-trailing         ((t ( :inherit     trailing-whitespace                                  ))))
 
    ;; Compilation:
-   `(compilation-info           ((t ( :foreground ,hesperus-tan0                  :inherit unspecified ))))
-   `(compilation-warning        ((t ( :foreground ,hesperus-lav0     :bold   t    :inherit unspecified ))))
-   `(compilation-error          ((t ( :foreground ,hesperus-magenta0                                   ))))
-   `(compilation-mode-line-fail ((t ( :foreground ,hesperus-magenta0 :weight bold :inherit unspecified ))))
-   `(compilation-mode-line-exit ((t ( :foreground ,hesperus-tan0     :weight bold :inherit unspecified ))))
+   `(compilation-info           ((t ( :foreground ,hesperus-red0              :inherit unspecified ))))
+   `(compilation-warning        ((t ( :foreground ,hesperus-bg   :bold   t    :inherit unspecified ))))
+   `(compilation-error          ((t ( :foreground ,hesperus-bg                                     ))))
+   `(compilation-mode-line-fail ((t ( :foreground ,hesperus-bg   :weight bold :inherit unspecified ))))
+   `(compilation-mode-line-exit ((t ( :foreground ,hesperus-bg   :weight bold :inherit unspecified ))))
 
    ;; Dired:
    `(dired-directory      ((t ( :foreground ,hesperus-magenta0 :weight      bold                       ))))
